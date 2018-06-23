@@ -8,7 +8,7 @@ namespace TestProj.Common {
         public static readonly DependencyProperty PasswordProperty =
             DependencyProperty.RegisterAttached("Password",
             typeof(string), typeof(PasswordHelper),
-            new FrameworkPropertyMetadata(string.Empty, OnPasswordPropertyChanged));
+            new FrameworkPropertyMetadata(string.Empty, OnPasswordPropertyChanged)); 
 
         public static readonly DependencyProperty AttachProperty =
             DependencyProperty.RegisterAttached("Attach",

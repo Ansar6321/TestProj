@@ -8,7 +8,7 @@ namespace TestProj {
         {
             InitializeComponent();
 
-
+             
         }
 
         public void BindDataContext(IMainWindowViewModel mainWindowViewModel) {

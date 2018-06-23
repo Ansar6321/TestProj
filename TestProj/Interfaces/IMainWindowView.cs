@@ -3,5 +3,5 @@
         void ShowAlert(string text, string caption);
         void BindDataContext(IMainWindowViewModel mainWindowViewModel);
 
-    }
+    } 
 }

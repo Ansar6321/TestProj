@@ -6,7 +6,7 @@ namespace TestProj.Common {
         private Action<object> execute;
         private Func<object, bool> canExecute;
 
-        public event EventHandler CanExecuteChanged {
+        public event EventHandler CanExecuteChanged { 
             add { CommandManager.RequerySuggested += value; }
             remove { CommandManager.RequerySuggested -= value; }
         }

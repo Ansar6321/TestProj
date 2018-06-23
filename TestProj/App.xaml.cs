@@ -14,7 +14,7 @@ namespace TestProj
             base.OnStartup(e);
             ContainerBuilder containerBuilder = new ContainerBuilder();
             #region View
-            containerBuilder.RegisterType<MainWindow>().As<IMainWindowView>();
+            containerBuilder.RegisterType<MainWindow>().As<IMainWindowView>(); 
             #endregion
             #region ViewModel
             containerBuilder.RegisterType<MainWindowViewModel>().As<IMainWindowViewModel>();

@@ -7,6 +7,6 @@ namespace TestProj.Common {
 
         public void OnPropertyChanged([CallerMemberName]string param = "") {
             this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(param));
-        }
+        }   
     }
 }
